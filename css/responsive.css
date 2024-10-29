@@ -1,26 +1,25 @@
 /* Soluzione qui */
 
 @media screen and (min-width: 576px){
-  
-  .presentation{
-    float: left;
-    margin: 10px 10px 10px 0;
-  }
 
-  .social-networks button{
-    flex-basis: 20%;
-  }
+.presentation img{
+  float: left;
+  margin: 10px 10px 10px 0;
+}
+
+.social-networks button {
+  flex-basis: 20%;
+}
 
 }
 
-
-@media screen and (min-width: 768px){
+@media screen and (min-width:768px){
 
   #topbar{
     justify-content: flex-start;
   }
 
-  main {
+  main{
     padding: 50px;
   }
 
@@ -29,7 +28,7 @@
   }
 
   .recipe-title{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
 
   .quick-notes ul{
@@ -43,5 +42,36 @@
 
   .ads{
     display: block;
+  }
+}
+
+@media screen and (min-width:992px) {
+  
+  .reape-title{
+    font-size: 1.8rem;
+  }
+
+  .quick-notes ul{
+    display: block;
+  }
+
+  .recipe-card{
+    display: flex;
+  }
+
+  .recipe-video{
+    flex-basis: 70%;
+    max-height: 420px;
+  }
+
+  .social-networks .label{
+    display: inline;
+  }
+
+  footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
   }
 }
